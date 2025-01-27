@@ -113,3 +113,46 @@ git branch amin
 git log
 clear
 git branch -D amin
+git --help
+clear
+nano tesrter.xtx
+git log
+clear
+git log
+nano error.txt
+git add.
+git add .
+git commit -m "nuevo archivo especial creado"
+git log
+clear
+git log
+clear
+git revert e623f415a969d3d4ddff9d89f6712188872238d3
+git revert e623f415a969d3d4ddff9d89f6712188872238d3 por amin
+git revert e623f415a969d3d4ddff9d89f6712188872238d3 por gabs
+git log
+git revert e623f415a969d3d4ddff9d89f6712188872238d3
+git log
+clear
+ls
+git log
+clear
+nano reset.txt
+git add .
+git commit -m "nuevo archivo para reiniciar"
+git log
+clear
+ls
+git log
+git reser --hard e623f415a969d3d4ddff9d89f6712188872238d3
+git reset --hard e623f415a969d3d4ddff9d89f6712188872238d3
+git log
+clear
+git log
+git tag -a v1.0 -m "mi primera version"
+git log
+clear
+git log
+clear
+git tag
+git show v1.0
