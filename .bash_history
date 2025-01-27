@@ -156,3 +156,53 @@ git log
 clear
 git tag
 git show v1.0
+git tag -d v1.0
+git log
+git tag v2.0
+cleat
+clear
+git log
+git checkout e623f415a969d3d4ddff9d89f6712188872238d3
+clear
+git lkog
+git log
+ls
+nano testing3.txt
+ls
+git status
+git add .
+git status
+clear
+git checkout main 
+git log
+git checkout master
+git branch
+clear
+git branch
+nano conflict.txt
+ls
+git add .
+git commit -m "archivo de conflicto creado"
+git checkout -b developer
+ls
+git branch
+nano conflict.txt
+git add .
+git commit -m "nuevos cambios desde dev"
+clkear
+clear
+git checkput -b main
+git checkout -b main
+git checkout
+nano conflict.txt
+git status
+git add .
+git commit -m "cambios a conflict"
+clear
+git merge developer
+nano conflict.txt
+git log
+git sattus
+git satatus
+clear
+code .
