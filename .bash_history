@@ -227,3 +227,38 @@ ls
 mkdir -p gabfd
 ls
 code .
+ls
+git status
+git log
+git add .
+git status
+git log
+git clone https://github.com/gabrielag-06/miPrimerRepo.git
+https://github.com/gabrielag-06/miPrimerRepo
+git clone https://github.com/gabrielag-06/miPrimerRepo.git
+sudo apt install gh
+git clone https://github.com/gabrielag-06/miPrimerRepo.git
+git config --global credential.helper store
+git remote set-url origin git@github.com:gabrielag-06/miPrimerRepo.git
+git remote -v
+git remote add origin git@github.com:gabrielag-06/miPrimerRepo.git
+git remote -v
+git clone git@github.com:gabrielag-06/miPrimerRepo.git
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "gabrielagarciafigueroa06@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+git clone git@github.com:gabrielag-06/miPrimerRepo.git
+ls -al ~/.ssh
+cat ~/.ssh/id_ed25519.pub
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+ssh -T gabrielagarciafigueroa06@gmail.com
+lsls
+git status
+git clone git@github.com:gabrielag-06/miPrimerRepo.git
+git@github.com:gabrielag-06/miPrimerRepo.git
+gh repo clone gabrielag-06/miPrimerRepo
+gh auth login

@@ -4,3 +4,5 @@
 	nami = gabriela
 	email = gabrielagarciafigueroa06@gmail.com
 	name = gabriela
+[credential]
+	helper = store
