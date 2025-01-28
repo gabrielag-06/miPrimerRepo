@@ -36,3 +36,9 @@
 2025-01-27 23:27:39.975 [info] Using in-memory cached assignable users.
 2025-01-27 23:27:39.990 [info] Review+2> No matching pull request metadata found locally for current branch main
 2025-01-27 23:27:39.996 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2025-01-27 23:28:15.875 [info] Review+2> Validate state in progress
+2025-01-27 23:28:15.875 [info] Review+2> Validating state...
+2025-01-27 23:28:15.925 [info] Found GitHub remote for folder /home/gabs
+2025-01-27 23:28:15.925 [info] Using in-memory cached assignable users.
+2025-01-27 23:28:15.932 [info] Review+2> No matching pull request metadata found locally for current branch main
+2025-01-27 23:28:15.943 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
