@@ -262,3 +262,53 @@ git clone git@github.com:gabrielag-06/miPrimerRepo.git
 git@github.com:gabrielag-06/miPrimerRepo.git
 gh repo clone gabrielag-06/miPrimerRepo
 gh auth login
+git push -u original main
+git push -u origin main
+git pull origin main
+git push -u origin main
+git config pull.rebase false
+git pull origin main
+git push -u origin main
+git add .
+git push -u origin main
+git push -u  main
+git push -u origin main
+git config pull.rebase false
+git pull origin main
+git add 
+git add <archivo_resuelto>
+git commit -m "Resolución de conflictos"
+git push -u origin main
+git branch
+git checkout main
+git pull --rebase origin main
+git rebase --continue
+git push -u origin main
+git config --list
+git status
+git add .
+git push -u origin main
+gh auth login
+gh repo clone gabrielag-06/miPrimerRepo
+ls
+cd .ssh
+clear
+eval "$(ssh-agent -s)"
+nano id_ed25519.pub
+ls
+clear
+ssh -t git@github.com
+ssh -T git@github.com
+cd ..
+git clone git@github.com:gabrielag-06/miPrimerRepo.git
+gh clone git@github.com:gabrielag-06/miPrimerRepo.git
+cleat
+clear
+gh repo clone gabrielag-06/miPrimerRepo
+git clone git@github.com:gabrielag-06/miPrimerRepo.git
+git branch
+code .
+git status
+git add .
+git status
+git log
