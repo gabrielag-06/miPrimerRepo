@@ -206,3 +206,24 @@ git sattus
 git satatus
 clear
 code .
+code .
+git add .
+git log
+cleat
+clear
+ls
+code .
+mkdir nuvo-repo
+ls
+code .
+clear
+code .
+clear
+cd reponueva
+cd /reponueuva/
+cd /reponueuva
+mkdir Proyectos
+ls
+mkdir -p gabfd
+ls
+code .

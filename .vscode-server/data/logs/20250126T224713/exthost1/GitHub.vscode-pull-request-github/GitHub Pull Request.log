@@ -1,0 +1,31 @@
+2025-01-26 22:48:55.363 [warning] /home/gabs/.ssh/config: ENOENT: no such file or directory, open '/home/gabs/.ssh/config'
+2025-01-26 22:48:55.363 [info] Activation> Extension version: 0.102.0
+2025-01-26 22:48:55.645 [info] Looking for git repository
+2025-01-26 22:48:55.646 [info] Found 0 repositories during activation
+2025-01-26 22:48:55.646 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-26 22:48:55.648 [info] Registering git provider
+2025-01-26 22:48:55.648 [info] Review+0> Validate state in progress
+2025-01-26 22:48:55.648 [info] Review+0> Validating state...
+2025-01-26 22:48:55.648 [info] Review+1> Validate state in progress
+2025-01-26 22:48:55.648 [info] Review+1> Validating state...
+2025-01-26 22:48:55.648 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-01-26 22:48:55.648 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-01-26 22:48:55.648 [info] No GitHub remotes found for folder /home/gabs/miPrimerProyecto
+2025-01-26 22:48:55.648 [info] No GitHub remotes found for folder /home/gabs
+2025-01-26 22:48:55.648 [info] Trying to use globalState for assignableUsers.
+2025-01-26 22:48:55.649 [info] Trying to use globalState for assignableUsers.
+2025-01-26 22:48:55.654 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-26 22:48:55.656 [info] Review+1> No matching pull request metadata found locally for current branch main
+2025-01-26 22:48:55.662 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-26 22:48:55.666 [info] Review+1> No matching pull request metadata found on GitHub for current branch main
+2025-01-26 22:48:55.667 [info] GlobalState does not exist for assignableUsers.
+2025-01-26 22:48:55.667 [info] GlobalState does not exist for assignableUsers.
+2025-01-26 22:48:55.823 [info] Repo state for file:///home/gabs changed.
+2025-01-26 22:48:55.823 [info] Repo file:///home/gabs has already been setup.
+2025-01-26 22:49:43.824 [info] Review+1> Validate state in progress
+2025-01-26 22:49:43.824 [info] Review+1> Validating state...
+2025-01-26 22:49:43.826 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-01-26 22:49:43.826 [info] No GitHub remotes found for folder /home/gabs
+2025-01-26 22:49:43.827 [info] Using in-memory cached assignable users.
+2025-01-26 22:49:43.834 [info] Review+1> No matching pull request metadata found locally for current branch main
+2025-01-26 22:49:43.839 [info] Review+1> No matching pull request metadata found on GitHub for current branch main

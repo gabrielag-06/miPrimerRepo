@@ -7,3 +7,17 @@
 2025-01-26 22:47:13.734 [info] [127.0.0.1][4a5dc180][ManagementConnection] New connection established.
 2025-01-26 22:47:13.922 [info] [127.0.0.1][30b8ff6e][ExtensionHostConnection] New connection established.
 2025-01-26 22:47:14.002 [info] [127.0.0.1][30b8ff6e][ExtensionHostConnection] <3492> Launched Extension Host Process.
+2025-01-26 22:48:27.863 [info] Getting Manifest... mhutchie.git-graph
+2025-01-26 22:48:27.900 [info] Installing extension: mhutchie.git-graph {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/gabs/.vscode-server/extensions/extensions.json","external":"file:///home/gabs/.vscode-server/extensions/extensions.json","path":"/home/gabs/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-26 22:48:29.421 [info] Extension signature verification result for mhutchie.git-graph: Success. Executed: true. Duration: 982ms.
+2025-01-26 22:48:29.500 [info] Extracted extension to file:///home/gabs/.vscode-server/extensions/mhutchie.git-graph-1.30.0: mhutchie.git-graph
+2025-01-26 22:48:29.511 [info] Renamed to /home/gabs/.vscode-server/extensions/mhutchie.git-graph-1.30.0
+2025-01-26 22:48:29.520 [info] Extension installed successfully: mhutchie.git-graph file:///home/gabs/.vscode-server/extensions/extensions.json
+2025-01-26 22:48:53.251 [info] Getting Manifest... github.vscode-pull-request-github
+2025-01-26 22:48:53.347 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/gabs/.vscode-server/extensions/extensions.json","external":"file:///home/gabs/.vscode-server/extensions/extensions.json","path":"/home/gabs/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-26 22:48:54.999 [info] Extension signature verification result for github.vscode-pull-request-github: Success. Executed: true. Duration: 796ms.
+2025-01-26 22:48:55.104 [info] Extracted extension to file:///home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0: github.vscode-pull-request-github
+2025-01-26 22:48:55.122 [info] Renamed to /home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0
+2025-01-26 22:48:55.136 [info] Extension installed successfully: github.vscode-pull-request-github file:///home/gabs/.vscode-server/extensions/extensions.json
+2025-01-26 22:51:57.226 [info] [127.0.0.1][4a5dc180][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-26 22:51:57.279 [info] [127.0.0.1][30b8ff6e][ExtensionHostConnection] <3492> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,190 @@
+2025-01-26 22:59:50.278 [info] [main] Log level: Info
+2025-01-26 22:59:50.278 [info] [main] Validating found git in: "git"
+2025-01-26 22:59:50.278 [info] [main] Using git "2.43.0" from "git"
+2025-01-26 22:59:50.278 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-26 22:59:50.278 [info] > git rev-parse --show-toplevel [7ms]
+2025-01-26 22:59:50.278 [info] > git rev-parse --git-dir --git-common-dir [24ms]
+2025-01-26 22:59:50.278 [info] [Model][openRepository] Opened repository: /home/gabs
+2025-01-26 22:59:50.282 [info] > git config --get commit.template [16ms]
+2025-01-26 22:59:50.287 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 22:59:50.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-01-26 22:59:50.357 [info] > git status -z -uall [64ms]
+2025-01-26 22:59:50.359 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [62ms]
+2025-01-26 22:59:50.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [154ms]
+2025-01-26 22:59:50.524 [info] > git rev-parse --show-toplevel [174ms]
+2025-01-26 22:59:50.573 [info] > git config --local branch.main.vscode-merge-base [49ms]
+2025-01-26 22:59:50.573 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:50.577 [info] > git config --get commit.template [203ms]
+2025-01-26 22:59:50.579 [info] > git rev-parse --show-toplevel [29ms]
+2025-01-26 22:59:50.582 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 22:59:50.583 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2025-01-26 22:59:50.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-01-26 22:59:50.598 [info] > git rev-parse --show-toplevel [10ms]
+2025-01-26 22:59:50.598 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to main [12ms]
+2025-01-26 22:59:50.604 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2025-01-26 22:59:50.606 [info] > git status -z -uall [14ms]
+2025-01-26 22:59:50.606 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-26 22:59:50.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/developer refs/remotes/developer [11ms]
+2025-01-26 22:59:50.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-01-26 22:59:50.623 [info] > git rev-parse --show-toplevel [7ms]
+2025-01-26 22:59:50.623 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [9ms]
+2025-01-26 22:59:50.623 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-26 22:59:50.623 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-26 22:59:50.627 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2025-01-26 22:59:50.627 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:50.632 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-26 22:59:50.634 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2025-01-26 22:59:50.637 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-26 22:59:50.638 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to main [2ms]
+2025-01-26 22:59:50.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/developer refs/remotes/developer [2ms]
+2025-01-26 22:59:50.645 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-26 22:59:50.646 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-01-26 22:59:50.646 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-26 22:59:50.646 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-26 22:59:50.649 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-26 22:59:50.652 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-26 22:59:50.655 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-01-26 22:59:50.657 [info] [Model][openRepository] Opened repository: /home/gabs/miPrimerProyecto
+2025-01-26 22:59:50.662 [info] > git config --get commit.template [2ms]
+2025-01-26 22:59:50.662 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-26 22:59:50.664 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-26 22:59:50.952 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.bash_history [313ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.bash_history [311ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache [307ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache [306ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock [305ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock [303ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T223706/exthost1/remoteexthost.log [302ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T223706/exthost1/remoteexthost.log [301ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T223706/exthost1/vscode.git/Git.log [299ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T223706/exthost1/vscode.git/Git.log [298ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T223706/exthost1/vscode.github/GitHub.log [297ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T223706/exthost1/vscode.github/GitHub.log [296ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T223706/ptyhost.log [294ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T223706/ptyhost.log [191ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T223706/remoteagent.log [190ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T223706/remoteagent.log [188ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T224713/exthost1/remoteexthost.log [186ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T224713/exthost1/remoteexthost.log [184ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T224713/exthost1/vscode.git/Git.log [182ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T224713/exthost1/vscode.git/Git.log [180ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T224713/exthost1/vscode.github/GitHub.log [177ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T224713/exthost1/vscode.github/GitHub.log [175ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/logs/20250126T224713/remoteagent.log [174ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/logs/20250126T224713/remoteagent.log [173ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:codeconflict.txt [172ms]
+2025-01-26 22:59:50.979 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:codeconflict.txt [170ms]
+2025-01-26 22:59:50.980 [info] > git check-ignore -v -z --stdin [30ms]
+2025-01-26 22:59:50.980 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/codeconflict.txt [48ms]
+2025-01-26 22:59:50.981 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/codeconflict.txt [51ms]
+2025-01-26 22:59:50.981 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T224713/remoteagent.log [53ms]
+2025-01-26 22:59:50.981 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T224713/remoteagent.log [55ms]
+2025-01-26 22:59:50.981 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T224713/exthost1/vscode.github/GitHub.log [57ms]
+2025-01-26 22:59:50.982 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T224713/exthost1/vscode.github/GitHub.log [59ms]
+2025-01-26 22:59:50.982 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T224713/exthost1/vscode.git/Git.log [61ms]
+2025-01-26 22:59:50.982 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T224713/exthost1/vscode.git/Git.log [62ms]
+2025-01-26 22:59:50.982 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T224713/exthost1/remoteexthost.log [64ms]
+2025-01-26 22:59:50.982 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T224713/exthost1/remoteexthost.log [149ms]
+2025-01-26 22:59:50.983 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T223706/remoteagent.log [151ms]
+2025-01-26 22:59:50.983 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T223706/remoteagent.log [153ms]
+2025-01-26 22:59:50.983 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T223706/ptyhost.log [154ms]
+2025-01-26 22:59:50.983 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T223706/ptyhost.log [155ms]
+2025-01-26 22:59:50.983 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T223706/exthost1/vscode.github/GitHub.log [156ms]
+2025-01-26 22:59:50.983 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T223706/exthost1/vscode.github/GitHub.log [158ms]
+2025-01-26 22:59:50.984 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T223706/exthost1/vscode.git/Git.log [160ms]
+2025-01-26 22:59:50.984 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T223706/exthost1/vscode.git/Git.log [161ms]
+2025-01-26 22:59:50.984 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/logs/20250126T223706/exthost1/remoteexthost.log [163ms]
+2025-01-26 22:59:50.984 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/logs/20250126T223706/exthost1/remoteexthost.log [164ms]
+2025-01-26 22:59:50.984 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock [166ms]
+2025-01-26 22:59:50.985 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock [168ms]
+2025-01-26 22:59:50.985 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache [169ms]
+2025-01-26 22:59:50.985 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache [170ms]
+2025-01-26 22:59:50.985 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache [171ms]
+2025-01-26 22:59:50.985 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache [172ms]
+2025-01-26 22:59:50.986 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.bash_history [174ms]
+2025-01-26 22:59:50.986 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.bash_history [176ms]
+2025-01-26 22:59:50.990 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2025-01-26 22:59:50.994 [info] > git show --textconv 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2:.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache [325ms]
+2025-01-26 22:59:50.994 [info] > git status -z -uall [3ms]
+2025-01-26 22:59:50.995 [info] > git show --textconv 727225a96f378249415b4713efe64388b5109b9a:.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache [325ms]
+2025-01-26 22:59:50.995 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-26 22:59:51.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2025-01-26 22:59:51.032 [info] > git config --get commit.template [6ms]
+2025-01-26 22:59:51.034 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2025-01-26 22:59:51.034 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:51.038 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 22:59:51.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-26 22:59:51.045 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2025-01-26 22:59:51.049 [info] > git status -z -uall [7ms]
+2025-01-26 22:59:51.049 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-26 22:59:51.060 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2025-01-26 22:59:51.061 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-26 22:59:51.061 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-26 22:59:51.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-26 22:59:51.064 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-01-26 22:59:51.064 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:51.067 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2025-01-26 22:59:51.069 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-01-26 22:59:51.069 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-26 22:59:51.069 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-26 22:59:51.459 [info] > git check-ignore -v -z --stdin [3ms]
+2025-01-26 22:59:51.459 [info] > git check-ignore -v -z --stdin [1ms]
+2025-01-26 22:59:52.212 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 22:59:52.213 [info] > git config --get commit.template [3ms]
+2025-01-26 22:59:52.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-01-26 22:59:52.218 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-26 22:59:52.227 [info] > git status -z -uall [12ms]
+2025-01-26 22:59:54.341 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [436ms]
+2025-01-26 22:59:55.419 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-26 22:59:55.477 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2025-01-26 22:59:55.477 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:55.479 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2025-01-26 22:59:55.479 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:55.482 [info] > git config --local branch.main.remote [3ms]
+2025-01-26 22:59:55.482 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:55.484 [info] > git config --local branch.main.remote [3ms]
+2025-01-26 22:59:55.484 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:55.486 [info] > git config --local branch.main.merge [2ms]
+2025-01-26 22:59:55.486 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:55.487 [info] > git config --local branch.main.merge [1ms]
+2025-01-26 22:59:55.487 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-26 22:59:58.130 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 22:59:58.131 [info] > git config --get commit.template [2ms]
+2025-01-26 22:59:58.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-01-26 22:59:58.137 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-26 22:59:58.146 [info] > git status -z -uall [12ms]
+2025-01-26 23:00:06.730 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 23:00:06.730 [info] > git config --get commit.template [2ms]
+2025-01-26 23:00:06.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-01-26 23:00:06.735 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-26 23:00:06.744 [info] > git status -z -uall [11ms]
+2025-01-26 23:00:11.750 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 23:00:11.751 [info] > git config --get commit.template [3ms]
+2025-01-26 23:00:11.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-01-26 23:00:11.755 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-26 23:00:11.764 [info] > git status -z -uall [12ms]
+2025-01-26 23:00:16.771 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 23:00:16.772 [info] > git config --get commit.template [3ms]
+2025-01-26 23:00:16.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-01-26 23:00:16.778 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-26 23:00:16.785 [info] > git status -z -uall [11ms]
+2025-01-26 23:00:21.792 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 23:00:21.793 [info] > git config --get commit.template [3ms]
+2025-01-26 23:00:21.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-26 23:00:21.799 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-26 23:00:21.807 [info] > git status -z -uall [11ms]
+2025-01-26 23:00:26.814 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 23:00:26.815 [info] > git config --get commit.template [2ms]
+2025-01-26 23:00:26.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-01-26 23:00:26.821 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-26 23:00:26.830 [info] > git status -z -uall [13ms]
+2025-01-26 23:06:46.598 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.bash_history [27ms]
+2025-01-26 23:06:46.600 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.bash_history [35ms]
+2025-01-26 23:06:46.602 [info] > git config --get commit.template [6ms]
+2025-01-26 23:06:46.603 [info] > git ls-tree -l 5bff0ebe1ba33bdebb13d29828ce2d32f8bf22f2 -- /home/gabs/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache [25ms]
+2025-01-26 23:06:46.604 [info] > git ls-tree -l 727225a96f378249415b4713efe64388b5109b9a -- /home/gabs/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache [19ms]
+2025-01-26 23:06:46.611 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-26 23:06:46.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-01-26 23:06:46.630 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-01-26 23:06:46.755 [info] > git status -z -uall [135ms]
