@@ -312,3 +312,23 @@ git status
 git add .
 git status
 git log
+git status
+git push -u origin main
+clear
+git pull
+git status
+git fetch origin
+chmod 600 /home/gabs/.ssh/id_ed25519
+ls -l /home/gabs/.ssh/id_ed25519
+git fetch origin
+git status
+clear
+git brsnch
+git branch
+git log main..origin/main
+git merge origin/main
+git add .
+git commit -m "Guardando cambios locales antes de fusionar"
+git merge origin/main
+git push -u origin main
+code .
