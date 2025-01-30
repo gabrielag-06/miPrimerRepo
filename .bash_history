@@ -332,3 +332,14 @@ git commit -m "Guardando cambios locales antes de fusionar"
 git merge origin/main
 git push -u origin main
 code .
+git branch
+git status
+git add .
+git commit -m "cambios desde developer01"
+git push -u origin developer01
+git push
+git push -u origin developer01
+git status
+git add .
+git status
+git log
