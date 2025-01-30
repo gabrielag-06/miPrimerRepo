@@ -49,3 +49,18 @@
 2025-01-29 21:46:38.697 [info] Repo state for file:///home/gabs changed.
 2025-01-29 21:46:38.697 [info] Repo file:///home/gabs has already been setup.
 2025-01-29 21:46:38.697 [info] Review+3> This PR is closed
+2025-01-29 21:57:25.338 [info] Review+3> Validate state in progress
+2025-01-29 21:57:25.338 [info] Review+3> Validating state...
+2025-01-29 21:57:25.505 [info] Found GitHub remote for folder /home/gabs
+2025-01-29 21:57:25.505 [info] Using in-memory cached assignable users.
+2025-01-29 21:57:25.511 [info] Review+3> Found matching pull request metadata for current branch developer01. Repo: gabrielag-06/miPrimerRepo PR: 1
+2025-01-29 21:57:25.511 [info] Review+3> current branch developer01 is associated with pull request #1
+2025-01-29 21:57:25.511 [info] Review+3> Resolving pull request
+2025-01-29 21:57:25.512 [info] FolderRepositoryManager+3> Found GitHub repo for pr #1: yes
+2025-01-29 21:57:26.072 [info] FolderRepositoryManager+3> Found GitHub pr repo for pr #1: yes
+2025-01-29 21:57:26.072 [info] GitHubRepository+3> Fetch branch main - enter
+2025-01-29 21:57:26.398 [info] GitHubRepository+3> Fetch branch main - done: true
+2025-01-29 21:57:26.398 [info] Review+3> Resolved PR #1, state is 2
+2025-01-29 21:57:26.885 [info] Found matching pull request metadata on GitHub for current branch developer01. Repo: gabrielag-06/miPrimerRepo PR: 1
+2025-01-29 21:57:26.885 [info] PullRequestGitHelper> associate developer01 with Pull Request #1
+2025-01-29 21:57:26.911 [info] Review+3> This PR is closed

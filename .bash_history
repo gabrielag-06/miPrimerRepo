@@ -343,3 +343,36 @@ git status
 git add .
 git status
 git log
+git clone gh repo clone gabrielag-06/gabrielag-06
+gh repo clone gabrielag-06/gabrielag-06
+code .
+cleat
+clear
+npm install badge-maker
+git add .
+clear
+git status
+git add .
+git commit -m "portal actualizada"
+git add .
+git status
+git push
+git status
+git add .
+git push
+git status
+git diff --staged
+git restore --staged .vscode-server/data/logs/
+git add gabrielag-06 miPrimerRepo
+git commit -m "Updated project files"
+git push origin developer01
+git status
+git add .
+git push
+git status
+git add.
+git add . 
+git push .
+gh repo clone gabrielag-06/gabrielag-06.github.io
+cd gabrielag-06.github.io/
+code .
