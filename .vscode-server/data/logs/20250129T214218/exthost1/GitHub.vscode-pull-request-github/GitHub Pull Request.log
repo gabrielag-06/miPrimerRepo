@@ -1,0 +1,54 @@
+2025-01-29 21:42:20.307 [warning] /home/gabs/.ssh/config: ENOENT: no such file or directory, open '/home/gabs/.ssh/config'
+2025-01-29 21:42:20.307 [info] Activation> Extension version: 0.102.0
+2025-01-29 21:42:20.532 [info] Looking for git repository
+2025-01-29 21:42:20.532 [info] Found 0 repositories during activation
+2025-01-29 21:42:20.532 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-29 21:42:20.535 [info] Registering git provider
+2025-01-29 21:42:20.546 [info] Git initialization state changed: state=initialized
+2025-01-29 21:42:20.546 [info] Review+1> Validate state in progress
+2025-01-29 21:42:20.546 [info] Review+1> Validating state...
+2025-01-29 21:42:20.546 [info] Review+0> Validate state in progress
+2025-01-29 21:42:20.546 [info] Review+0> Validating state...
+2025-01-29 21:42:20.546 [info] Review+2> Validate state in progress
+2025-01-29 21:42:20.546 [info] Review+2> Validating state...
+2025-01-29 21:42:20.547 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-01-29 21:42:20.547 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-01-29 21:42:20.547 [info] No GitHub remotes found for folder /home/gabs/miPrimerProyecto
+2025-01-29 21:42:20.547 [info] No GitHub remotes found for folder /home/gabs/miPrimerRepo
+2025-01-29 21:42:20.556 [info] Found GitHub remote for folder /home/gabs
+2025-01-29 21:42:20.618 [info] Review+0> Queuing additional validate state
+2025-01-29 21:42:20.618 [info] Repo state for file:///home/gabs/miPrimerProyecto changed.
+2025-01-29 21:42:20.618 [info] Repo file:///home/gabs/miPrimerProyecto has already been setup.
+2025-01-29 21:42:20.647 [info] Review+2> Validate state in progress
+2025-01-29 21:42:20.647 [info] Review+2> Validating state...
+2025-01-29 21:42:20.647 [info] Repo state for file:///home/gabs/miPrimerRepo changed.
+2025-01-29 21:42:20.647 [info] Repo file:///home/gabs/miPrimerRepo has already been setup.
+2025-01-29 21:42:20.659 [info] Review+0> Validating state...
+2025-01-29 21:42:20.783 [info] Found GitHub remote for folder /home/gabs/miPrimerRepo
+2025-01-29 21:42:20.976 [info] Found GitHub remote for folder /home/gabs/miPrimerProyecto
+2025-01-29 21:42:21.253 [info] Trying to use globalState for assignableUsers.
+2025-01-29 21:42:21.385 [info] Review+1> No matching pull request metadata found locally for current branch developer01
+2025-01-29 21:42:21.439 [info] Trying to use globalState for assignableUsers.
+2025-01-29 21:42:21.445 [info] Trying to use globalState for assignableUsers.
+2025-01-29 21:42:21.688 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-29 21:42:21.729 [info] Review+2> No matching pull request metadata found locally for current branch main
+2025-01-29 21:42:21.780 [info] Using globalState assignableUsers for 1.
+2025-01-29 21:42:21.826 [info] Using globalState assignableUsers for 1.
+2025-01-29 21:42:21.827 [info] Using globalState assignableUsers for 1.
+2025-01-29 21:42:22.123 [info] Found matching pull request metadata on GitHub for current branch developer01. Repo: gabrielag-06/miPrimerRepo PR: 1
+2025-01-29 21:42:22.123 [info] PullRequestGitHelper> associate developer01 with Pull Request #1
+2025-01-29 21:42:22.133 [info] Review+2> No matching pull request metadata found on GitHub for current branch main
+2025-01-29 21:42:22.152 [info] Repo state for file:///home/gabs changed.
+2025-01-29 21:42:22.152 [info] Repo file:///home/gabs has already been setup.
+2025-01-29 21:42:22.153 [info] Review+1> Found matching pull request metadata for current branch developer01. Repo: gabrielag-06/miPrimerRepo PR: 1
+2025-01-29 21:42:22.153 [info] Review+1> current branch developer01 is associated with pull request #1
+2025-01-29 21:42:22.153 [info] Review+1> Resolving pull request
+2025-01-29 21:42:22.153 [info] FolderRepositoryManager+1> Found GitHub repo for pr #1: yes
+2025-01-29 21:42:22.195 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-29 21:42:22.724 [info] FolderRepositoryManager+1> Found GitHub pr repo for pr #1: yes
+2025-01-29 21:42:22.724 [info] GitHubRepository+1> Fetch branch main - enter
+2025-01-29 21:42:23.093 [info] GitHubRepository+1> Fetch branch main - done: true
+2025-01-29 21:42:23.093 [info] Review+1> Resolved PR #1, state is 2
+2025-01-29 21:42:23.681 [info] Found matching pull request metadata on GitHub for current branch developer01. Repo: gabrielag-06/miPrimerRepo PR: 1
+2025-01-29 21:42:23.681 [info] PullRequestGitHelper> associate developer01 with Pull Request #1
+2025-01-29 21:42:23.705 [info] Review+1> This PR is closed
