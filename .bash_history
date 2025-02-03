@@ -376,3 +376,35 @@ git push .
 gh repo clone gabrielag-06/gabrielag-06.github.io
 cd gabrielag-06.github.io/
 code .
+git add .
+git commit -m "plantilla html"
+git add .
+git status
+git rm --cached -r gabrielag-06.github.io
+cd gabrielag-06.github.io
+git add .
+git status
+git commit -m "plantilla html"
+git status
+git push
+clear
+gh repo clone gabrielag-06/miSegundoRepo
+clear
+cd proyecto1
+clear
+cd miPrimerRepo
+dotnet add package Newtonsoft.Json --version 12.0.3
+code .
+git branch
+git add .
+git commit -m "m"
+git status
+git log
+code .
+git add .
+git commit -m "lolololol"
+git log
+git status
+cd .
+cd ..
+code .

@@ -1,1279 +1,852 @@
-2025-01-29 21:46:34.141 [info] Extension host with pid 1697 started
-2025-01-29 21:46:34.154 [info] Lock '/home/gabs/.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock': Lock acquired.
-2025-01-29 21:46:34.174 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
-2025-01-29 21:46:34.175 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2025-01-29 21:46:34.176 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
-2025-01-29 21:46:34.176 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
-2025-01-29 21:46:34.176 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
-2025-01-29 21:46:34.357 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
-2025-01-29 21:46:34.526 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2025-01-29 21:46:34.526 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
-2025-01-29 21:46:34.591 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1143
-2025-01-29 21:46:34.783 [info] Eager extensions activated
-2025-01-29 21:46:34.783 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2025-01-29 21:46:34.783 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2025-01-29 21:46:34.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1144
-2025-01-29 21:46:34.902 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:24.054 [info] Extension host with pid 3509 started
+2025-02-01 20:38:24.067 [info] Lock '/home/gabs/.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock': Lock acquired.
+2025-02-01 20:38:24.277 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onWebviewPanel:markdown.preview'
+2025-02-01 20:38:24.278 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-01 20:38:24.278 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-01 20:38:24.278 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-01 20:38:24.586 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-01 20:38:24.587 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2025-02-01 20:38:24.609 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-02-01 20:38:24.698 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-02-01 20:38:24.706 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-01 20:38:24.706 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-01 20:38:24.963 [info] Eager extensions activated
+2025-02-01 20:38:24.963 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-01 20:38:24.964 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-01 20:38:25.280 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.093 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.036 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.094 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:35.797 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:26.037 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.149 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.149 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.150 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.150 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.150 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.151 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.151 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.151 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.152 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.152 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.152 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.152 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.152 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.153 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.153 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.153 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.153 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.153 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.154 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.154 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.154 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.154 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.154 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.154 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.002 [error] Error: Git error
+2025-02-01 20:38:27.155 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.003 [error] Error: Git error
+2025-02-01 20:38:27.155 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.003 [error] Error: Git error
+2025-02-01 20:38:27.155 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.003 [error] Error: Git error
+2025-02-01 20:38:27.155 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.156 [error] Error: Git error
+2025-02-01 20:38:27.155 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.157 [error] Error: Git error
+2025-02-01 20:38:27.155 [error] Error: Git error
 	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.157 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.157 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.158 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.158 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.158 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.158 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.159 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.159 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.159 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.159 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.160 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.160 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.160 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.160 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.160 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.161 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.161 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.161 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.161 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.161 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.161 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.162 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.162 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.162 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.162 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.162 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.162 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.163 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.163 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.163 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.163 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.163 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.164 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.164 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.164 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.164 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.164 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.164 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.165 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.165 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:36.165 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.144 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.144 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.145 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.145 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.145 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.145 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.145 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.146 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.146 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.146 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.146 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.146 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.146 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.147 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.147 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.147 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.147 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.147 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.147 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.148 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.149 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.149 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.149 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.149 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.149 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.149 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.150 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.151 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.151 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:37.151 [error] Error: Git error
-	at ChildProcess.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1058252)
-	at ChildProcess.emit (node:events:530:35)
-	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
-2025-01-29 21:46:38.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:46:42.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:46:47.472 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:46:52.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:47:26.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:47:34.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:47:39.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:47:44.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:48:32.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:48:38.004 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:48:45.965 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:48:50.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:48:56.024 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:01.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:06.081 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:11.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:19.067 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:24.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:29.126 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:34.156 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:39.185 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:44.215 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:49.243 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:49:57.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:50:02.231 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:50:24.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:50:32.262 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:50:50.630 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:50:55.660 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:00.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:10.083 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:15.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:20.144 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:25.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:30.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:35.231 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:43.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:48.224 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:53.253 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:51:58.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:03.311 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:08.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:16.303 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:21.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:26.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:31.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:36.423 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:41.456 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:49.415 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:54.442 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:52:59.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:53:04.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:53:09.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:53:14.717 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:53:19.745 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:53:27.704 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:53:32.738 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1147
-2025-01-29 21:54:50.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
-2025-01-29 21:54:57.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
-2025-01-29 21:55:05.563 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
-2025-01-29 21:55:20.378 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
-2025-01-29 21:55:25.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
-2025-01-29 21:55:30.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1242
-2025-01-29 21:55:39.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1243
-2025-01-29 21:55:47.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1245
-2025-01-29 21:57:25.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1245
-2025-01-29 22:43:25.605 [info] Extension host terminating: received terminate message from renderer
-2025-01-29 22:43:25.607 [info] Lock '/home/gabs/.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2025-01-29 22:43:25.719 [error] Canceled: Canceled
-	at Fc (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
-	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:154927
-	at Array.forEach (<anonymous>)
-	at Dy.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:154867)
-	at zz.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:10082)
-	at Q3.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
-	at Zi (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
-	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
-	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
-	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
-	at Vn.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
-	at Wm.A (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
-	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
-	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
-	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
-	at s6.acceptChunk (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
-	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
-	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
-	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
-	at vA.z (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21944)
-	at vA.acceptFrame (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21750)
-	at mA.n (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:20278)
-	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:17510
-	at Socket.t (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
-	at Socket.emit (node:events:518:28)
-	at addChunk (node:internal/streams/readable:561:12)
-	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-	at Readable.push (node:internal/streams/readable:392:5)
-	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.722 [error] Canceled: Canceled
+2025-02-01 20:38:29.573 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-01 20:38:29.573 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-02-01 20:42:07.798 [info] Extension host terminating: received terminate message from renderer
+2025-02-01 20:42:07.799 [info] Lock '/home/gabs/.vscode-server/data/User/workspaceStorage/0c742492031483634d5235416ae18321/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-01 20:42:07.847 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1329,7 +902,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.740 [error] Canceled: Canceled
+2025-02-01 20:42:07.852 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1397,7 +970,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.741 [error] Canceled: Canceled
+2025-02-01 20:42:07.852 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1468,7 +1041,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.741 [error] Canceled: Canceled
+2025-02-01 20:42:07.852 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1524,7 +1097,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.743 [error] Canceled: Canceled
+2025-02-01 20:42:07.852 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1592,7 +1165,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.743 [error] Canceled: Canceled
+2025-02-01 20:42:07.852 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1648,7 +1221,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.743 [error] Canceled: Canceled
+2025-02-01 20:42:07.853 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1716,7 +1289,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.743 [error] Canceled: Canceled
+2025-02-01 20:42:07.853 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1772,7 +1345,255 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.747 [error] Canceled: Canceled
+2025-02-01 20:42:07.853 [error] Canceled: Canceled
+	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at e (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2138:2059)
+	at Object.i [as setContext] (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2138:2174)
+	at Gm.updateActiveReviewCount (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2214:23876)
+	at Gm.removeRepo (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2214:25061)
+	at Sh.value (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2546:4266)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Sh.value (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2105:444616)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at /home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2214:28821
+	at Sh.value (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1088462)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:997158)
+	at /home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at Q3.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Wm.A (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at s6.acceptChunk (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at vA.z (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21944)
+	at vA.acceptFrame (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21750)
+	at mA.n (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:20278)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:17510
+	at Socket.t (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-02-01 20:42:07.853 [error] Canceled: Canceled
+	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at Sh.L [as value] (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:975601)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:997158)
+	at /home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at Q3.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Wm.A (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at s6.acceptChunk (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at vA.z (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21944)
+	at vA.acceptFrame (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21750)
+	at mA.n (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:20278)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:17510
+	at Socket.t (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-02-01 20:42:07.853 [error] Canceled: Canceled
+	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at e (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2138:2059)
+	at Object.i [as setContext] (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2138:2174)
+	at Gm.updateActiveReviewCount (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2214:23876)
+	at Gm.removeRepo (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2214:25061)
+	at Sh.value (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2546:4266)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Sh.value (/home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2105:444616)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at /home/gabs/.vscode-server/extensions/github.vscode-pull-request-github-0.102.0/dist/extension.js:2214:28821
+	at Sh.value (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1088462)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:997158)
+	at /home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at Q3.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Wm.A (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at s6.acceptChunk (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at vA.z (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21944)
+	at vA.acceptFrame (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21750)
+	at mA.n (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:20278)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:17510
+	at Socket.t (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-02-01 20:42:07.853 [error] Canceled: Canceled
+	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
+	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at r.registerCommand.description (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+	at cw.h (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+	at cw.g (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+	at cw.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+	at Object.executeCommand (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+	at Sh.L [as value] (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:975601)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.C (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+	at Object.p [as dispose] (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:997158)
+	at /home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003280
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:1003266)
+	at ev.<anonymous> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ev.<anonymous> (/home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/main.js:2:978080)
+	at ev.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+	at ai (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at zz.eb (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+	at Array.map (<anonymous>)
+	at zz.$ (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+	at zz.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+	at Q3.terminate (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+	at Zi (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:175:13241)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at Vn.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:9457)
+	at Wm.A (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:12573)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:10993)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at s6.acceptChunk (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7940)
+	at Sh.value (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:7226)
+	at P.B (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+	at P.fire (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:30:964)
+	at vA.z (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21944)
+	at vA.acceptFrame (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:21750)
+	at mA.n (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:20278)
+	at file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:17510
+	at Socket.t (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:15451)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-02-01 20:42:07.856 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1830,7 +1651,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.747 [error] Canceled: Canceled
+2025-02-01 20:42:07.856 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1898,7 +1719,7 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.747 [error] Canceled: Canceled
+2025-02-01 20:42:07.856 [error] Canceled: Canceled
 	at new IT (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:153476)
 	at Dy.U (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:158086)
 	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/gabs/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/out/vs/workbench/api/node/extensionHostProcess.js:32:155580)
@@ -1969,4 +1790,4 @@
 	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
 	at Readable.push (node:internal/streams/readable:392:5)
 	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
-2025-01-29 22:43:25.748 [info] Extension host with pid 1697 exiting with code 0
+2025-02-01 20:42:07.860 [info] Extension host with pid 3509 exiting with code 0

@@ -477,3 +477,10 @@
 2025-01-29 21:57:34.243 [info] > git rev-parse refs/remotes/origin/main [1ms]
 2025-01-29 21:57:34.247 [info] > git status -z -uall [2ms]
 2025-01-29 21:57:34.248 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-29 22:43:25.567 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/README.md [4ms]
+2025-01-29 22:43:25.573 [info] > git config --get commit.template [14ms]
+2025-01-29 22:43:25.573 [info] > git config --get commit.template [17ms]
+2025-01-29 22:43:25.587 [info] > git ls-files --stage -- /home/gabs/gabrielag-06/README.md [21ms]
+2025-01-29 22:43:25.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-01-29 22:43:25.593 [info] > git cat-file -s 92f32fc62962eb1dfb604837ab4e02092eb1a7ab [20ms]
+2025-01-29 22:43:25.598 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/gabrielag-06/.git/refs/remotes/origin/main'

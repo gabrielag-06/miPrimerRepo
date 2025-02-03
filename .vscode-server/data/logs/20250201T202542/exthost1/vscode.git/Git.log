@@ -1,0 +1,99 @@
+2025-02-01 20:25:43.691 [info] [main] Log level: Info
+2025-02-01 20:25:43.691 [info] [main] Validating found git in: "git"
+2025-02-01 20:25:43.691 [info] [main] Using git "2.43.0" from "git"
+2025-02-01 20:25:43.691 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-01 20:25:43.691 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-01 20:25:43.691 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-01 20:25:43.691 [info] [Model][openRepository] Opened repository: /home/gabs/miPrimerRepo
+2025-02-01 20:25:43.691 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-01 20:25:43.691 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-01 20:25:43.691 [info] > git config --get commit.template [22ms]
+2025-02-01 20:25:43.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-02-01 20:25:43.696 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:25:43.697 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-01 20:25:43.725 [info] > git status -z -uall [25ms]
+2025-02-01 20:25:43.727 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2025-02-01 20:25:43.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [136ms]
+2025-02-01 20:25:43.893 [info] > git config --local branch.main.vscode-merge-base [20ms]
+2025-02-01 20:25:43.896 [info] > git config --get commit.template [154ms]
+2025-02-01 20:25:43.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-01 20:25:43.947 [info] > git merge-base refs/heads/main refs/remotes/origin/main [44ms]
+2025-02-01 20:25:43.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2025-02-01 20:25:43.951 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:25:43.953 [info] > git diff --name-status -z --diff-filter=ADMR e4b88c94dd44c1eeac6d6cb214284222b1b5197c...refs/remotes/origin/main [4ms]
+2025-02-01 20:25:43.954 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-02-01 20:25:43.976 [info] > git status -z -uall [21ms]
+2025-02-01 20:25:44.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [94ms]
+2025-02-01 20:25:44.218 [info] > git check-ignore -v -z --stdin [17ms]
+2025-02-01 20:25:44.688 [info] > git config --local branch.main.github-pr-owner-number [157ms]
+2025-02-01 20:25:44.688 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-01 20:35:19.230 [info] > git config --get commit.template [2ms]
+2025-02-01 20:35:19.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-01 20:35:19.239 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:35:19.241 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-01 20:35:19.246 [info] > git status -z -uall [3ms]
+2025-02-01 20:35:19.247 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-01 20:35:19.419 [info] > git merge-base refs/heads/main refs/remotes/origin/main [166ms]
+2025-02-01 20:35:19.427 [info] > git diff --name-status -z --diff-filter=ADMR e4b88c94dd44c1eeac6d6cb214284222b1b5197c...refs/remotes/origin/main [5ms]
+2025-02-01 20:35:19.428 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2025-02-01 20:35:19.428 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-01 20:35:24.260 [info] > git config --get commit.template [1ms]
+2025-02-01 20:35:24.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-01 20:35:24.265 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:35:24.265 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-01 20:35:24.269 [info] > git status -z -uall [2ms]
+2025-02-01 20:35:24.269 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-01 20:35:38.285 [info] > git show --textconv :.gitgnore [4ms]
+2025-02-01 20:35:38.285 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/.gitgnore [2ms]
+2025-02-01 20:35:38.563 [info] > git check-ignore -v -z --stdin [0ms]
+2025-02-01 20:35:39.134 [info] > git config --get commit.template [2ms]
+2025-02-01 20:35:39.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-01 20:35:39.137 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:35:39.138 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-01 20:35:39.141 [info] > git status -z -uall [2ms]
+2025-02-01 20:35:39.142 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-01 20:35:47.188 [info] > git config --get commit.template [2ms]
+2025-02-01 20:35:47.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-01 20:35:47.190 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:35:47.191 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-01 20:35:47.195 [info] > git status -z -uall [3ms]
+2025-02-01 20:35:47.195 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-01 20:35:54.669 [info] > git show --textconv :.gitignore [1ms]
+2025-02-01 20:35:54.670 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/.gitignore [1ms]
+2025-02-01 20:35:54.954 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-01 20:35:55.514 [info] > git config --get commit.template [3ms]
+2025-02-01 20:35:55.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-01 20:35:55.516 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:35:55.517 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-01 20:35:55.521 [info] > git status -z -uall [2ms]
+2025-02-01 20:35:55.522 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-01 20:35:57.066 [info] > git blame --root --incremental 5b4b7a2f80b0b3faa7ae110dbae0d02f8131e116 -- /home/gabs/miPrimerRepo/.gitignore [1ms]
+2025-02-01 20:35:57.066 [info] fatal: no such path .gitignore in 5b4b7a2f80b0b3faa7ae110dbae0d02f8131e116
+2025-02-01 20:36:17.339 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-01 20:36:20.411 [info] > git show --textconv :.github/ISSUE_TEMPLATE/bug_report.md [3ms]
+2025-02-01 20:36:20.412 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/.github/ISSUE_TEMPLATE/bug_report.md [2ms]
+2025-02-01 20:36:20.416 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2025-02-01 20:36:58.567 [info] > git config --get commit.template [12ms]
+2025-02-01 20:36:58.568 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/.github/ISSUE_TEMPLATE/bug_report.md [1ms]
+2025-02-01 20:36:58.569 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/.gitignore [6ms]
+2025-02-01 20:36:58.572 [info] > git ls-files --stage -- /home/gabs/miPrimerRepo/.gitgnore [11ms]
+2025-02-01 20:36:58.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-02-01 20:36:58.575 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:36:58.575 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-02-01 20:36:58.575 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [6ms]
+2025-02-01 20:36:58.579 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-02-01 20:36:58.590 [info] > git show --textconv :.gitgnore [12ms]
+2025-02-01 20:36:58.590 [info] > git status -z -uall [9ms]
+2025-02-01 20:36:58.590 [info] > git show --textconv :.gitignore [4ms]
+2025-02-01 20:36:58.592 [info] > git show --textconv :.github/ISSUE_TEMPLATE/bug_report.md [2ms]
+2025-02-01 20:36:58.592 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-01 20:36:58.750 [info] > git merge-base refs/heads/main refs/remotes/origin/main [154ms]
+2025-02-01 20:36:58.753 [info] > git diff --name-status -z --diff-filter=ADMR e4b88c94dd44c1eeac6d6cb214284222b1b5197c...refs/remotes/origin/main [1ms]
+2025-02-01 20:36:58.758 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2025-02-01 20:36:58.759 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-01 20:42:04.259 [info] > git config --get commit.template [4ms]
+2025-02-01 20:42:04.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-02-01 20:42:04.267 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gabs/miPrimerRepo/.git/refs/remotes/origin/main'
+2025-02-01 20:42:04.269 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-01 20:42:04.274 [info] > git status -z -uall [3ms]
+2025-02-01 20:42:04.276 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
